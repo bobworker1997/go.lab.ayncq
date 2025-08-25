@@ -1,0 +1,6 @@
+services:
+  lab.asyncq.redis:
+    image: redis:8.0.2-bookworm
+    restart: always
+    ports:
+      - "6373:6379"
