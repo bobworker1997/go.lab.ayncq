@@ -1,8 +1,6 @@
 package main
 
-import (
-	"lab.asyncq/consumer"
-)
+import "lab.asyncq/consumer"
 
 func main() {
 	//producer.Run()

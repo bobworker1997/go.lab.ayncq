@@ -14,8 +14,8 @@ func Run() {
 	srv := asynq.NewServer(
 		asynq.RedisClientOpt{Addr: "localhost:6373"},
 		asynq.Config{
-			Concurrency:       10, // worker 數量
-			TaskCheckInterval: 500 * time.Millisecond,
+			Concurrency: 10, // worker 數量
+			//TaskCheckInterval: 500 * time.Millisecond,
 		},
 	)
 
